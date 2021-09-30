@@ -1,0 +1,91 @@
+body {
+  background-image: url(https://cdn.shopify.com/s/files/1/0305/4075/9177/products/Papel-de-Parede-Adesivo-Tribal-Tons-PastEis-212484652.jpg?v=1610037394); 
+  font-family: "Roboto", sans-serif;
+}
+
+.container {
+  background: white;
+  margin: 64px;
+  border-radius: 20px;
+  box-shadow: 6px 6px 6px #0e1d2f;
+  padding: 64px;
+}
+
+.perfil {
+  display: flex;
+  align-items: center;
+}
+
+.perfil-foto {
+  border-radius: 800px;
+  max-height: 160px;
+  box-shadow: 3px 5px 5px rgba(233, 120, 186, 0.486);
+}
+
+.titulo {
+  margin-left: 16px;
+  font-family: monospace;
+}
+
+.titulo h1 {
+  font-weight: 700;
+  font-size: 36px;
+}
+
+.titulo h3 {
+  font-weight: 400;
+  font-size: 24px;
+}
+
+.projetos {
+  display: flex;
+  flex-direction: column;
+  text-decoration: none;
+  margin-top: 20px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: larger;
+  font-weight: bold;
+}
+
+a {
+  text-decoration: none;
+  color: blue;
+  font-weight: lighter;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.sobre {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.subtitulo {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.divinline {
+  display: inline-block;
+  width: 300px;
+  height: 230px;
+}
+
+.divinline i {
+  top: 50%;
+  left: 50%;
+  margin-right: 10%;
+}
+
+.redes {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.curriculo {
+  border:2px solid rgba(233, 120, 186, 0.486); 
+  width: 250px;
+  text-align: center;
+  border-radius: 5px;
+  padding: 10px;
+  background-color: rgba(233, 120, 186, 0.486);
+  font-weight: bolder;
+}
+

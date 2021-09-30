@@ -1,0 +1,63 @@
+body {
+    font-family: "Roboto Mono", monospace;
+    background-image: url("https://image.freepik.com/fotos-gratis/fundo-de-fumaca-de-cor_71163-197.jpg");
+    background-color: #000000;
+    background-size: cover;
+    background-position: center bottom;
+    background-repeat: no-repeat;
+  }
+  
+  .container {
+    text-align: center;
+    padding: 20px;
+    margin-top: 100px;
+  }
+  
+  .page-title {
+    color: #ffffff;
+    margin: 0 0 5px;
+    font-family: monospace;
+  }
+  
+  .page-subtitle {
+    color: #ffffff;
+    margin-top: 16px;
+    font-family: monospace;
+    font-size: large;
+  }
+  
+  .page-logo {
+    width: 200px;
+  }
+
+  @media (max-height: 500px) {
+    body {
+      min-height: 800px;
+    }
+  }
+  
+  input {
+    margin: 4px;
+    padding: 6px;
+    border-radius: 5px;
+  }
+  
+  button {
+    margin-top: 12px;
+    padding: 4px 8px;
+    border-radius: 8px;
+    background: #aa63e4;
+    color: white;
+    box-shadow: 5px 5px 5px black;
+    font-family: monospace;
+  }
+  
+  .resultado {
+    color: #ffffff;
+    text-align: center;
+    margin-top: 16px;
+    padding-top: 2%;
+    font-family: monospace;
+    font-size: 20px;
+  }
+  
